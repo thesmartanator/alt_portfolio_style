@@ -124,10 +124,13 @@ body {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-    -ms-flex: 30%; /* IE10 */
-    flex: 30%;
+    -ms-flex: 10%; /* IE10 */
+    flex: 10%;
     background-color: #DCDCDC;
-    padding: 20px;
+    padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 /* Main column */
